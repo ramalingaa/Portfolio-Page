@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ramalingaa_Portfolio</title>
     <style>
-       li{
+       .list{
            display: inline;
            padding: 1.5rem;
            float: right;
@@ -63,15 +63,33 @@
             margin-top:10px;
             
         }
+       
+        .social{
+            
+            display: inline;
+            padding: 2rem;
+            color:white;
+        }
+        .middle{
+            margin-left: 450px;
+        }
+        li{
+            list-style-type:none;
+        }
+        .footnote{
+            padding:2rem;
+            background-color: #7c3aed;
+            margin: -20px -10px;
+        }
     </style>
 </head>
 <body>
     <nav>
         <ul> 
             <a href ="#" style="font-weight: bold;">Ramalingaa</a>
-            <a href="#"><li>Blogs</li></a>
-            <a href="#"><li>Projects</li></a>
-            <a href="index.html"><li>Home</li></a>
+            <a href="#"><li class="list">Blogs</li></a>
+            <a href="#"><li class="list">Projects</li></a>
+            <a href="index.html"><li class="list">Home</li></a>
         </ul>
     </nav>
     <figure>
@@ -94,6 +112,13 @@
         <p style="max-width: 600px;margin: 0 auto;font-weight:400;color: rgba(0, 0, 0, 0.692);">I have developed my interests in writing technical and non-technical blogs.</p>
         <a class="button" href="#">Visit blogs</a>
     </section>
-
+    <footer class="footnote">
+        <p style="color: white;text-align: center">You can connect me on</p>
+            <a href="#" ><li class="social middle">Facebook</li></a>
+            <a href="#"><li class="social">Instagram</li></a>
+            <a href="#"><li class="social">Twitter</li></a>
+    
+    </footer>
 </body>
+
 </html>
