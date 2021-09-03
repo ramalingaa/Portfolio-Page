@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects</title>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
     <style>
         .list{
             display: inline;
@@ -13,7 +19,7 @@
          
         }
         nav{
-            background-color: #7c3aed;
+            background-color: #d87736;
             height: 100px;
             margin: -20px -10px;
             border-bottom-left-radius: 20px;
@@ -24,7 +30,9 @@
  
         a{
             text-decoration: none;
-              color: white;
+              color: #000;
+              font-size: 1.5em;
+
        
         }
         h1{
@@ -35,12 +43,15 @@
         body{
             font-family: 'Nunito', sans-serif;        }
         h2{
-            padding-top: 100px;
             background-color:;
         }
         .maxlength{
-            max-width: 600px;
-            margin-left: 370px;
+            margin: auto;
+            width: 600px;
+            border :2px solid #d87736;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 20px;
             
         }
         p{
@@ -51,7 +62,7 @@
         }
         .button{
             display: block;
-            background-color:#7c3aed;
+            background-color:#d87736;
             color: white;
             padding: 0.5rem;
             border-radius: 10px;
@@ -63,16 +74,16 @@
         .source{
             display: block;
             background-color:white;
-            color: #7c3aed;
+            color: #d87736;
             padding: 0.5rem;
             border-radius: 10px;
             max-width: 140px;
             text-align: center;
             margin-top:10px;
-            border: 1px solid #7c3aed;
+            border: 1px solid #d87736;
         }
         .footnote{
-            background-color: #7c3aed;
+            background-color: #d87736;
             height: 180px;
             margin-bottom: -20px;
         }
@@ -88,128 +99,154 @@
         li{
             list-style-type:none;
         }
+        .icon{
+            font-size: 1.5em;
+            color:#d87736;
+            margin: 20px;
+        }
+        .footer-align{
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+        }
+        .highlight{
+           margin: auto;
+        }
+       
+
     </style>
+
 </head>
 <body>
     <nav>
         <ul> 
             <a href ="index.html" style="font-weight: bold;">Ramalingaa</a>
-            <a href="#"><li class="list">Blogs</li></a>
+            <a href="blog.html"><li class="list">Blogs</li></a>
             <a href="projects_page.html"><li class="list">Projects</li></a>
             <a href="index.html"><li class="list">Home</li></a>
         </ul>
     </nav>
-    <h1>see my <span style="color:#7c3aed">code</span></h1>
-    <section class="maxlength">
-        <h2>how well do you know me?</h2>
-        <time datetime="July ,2021"><small>July, 2021</small></time>
-        <p >A CLI app built with <span style="font-weight: bold;color: black;">nodeJs</span> You can send this to your friends and find out who really knows you.</p>
-        <a href="https://replit.com/@KLReddi/QGame-1?v=1" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/Quiz-1" class="source" target="_blank">View source</a>
+    <div class="container">
+        <h1>see my <span style="color:#d87736">code</span></h1>
+        <section class="maxlength">
+            <h2>how well do you know me?</h2>
+            <time datetime="July ,2021"><small>July, 2021</small></time>
+            <p >A CLI app built with <span style="font-weight: bold;color: black;">nodeJs</span> You can send this to your friends and find out who really knows you.</p>
+            <div class="highlight">
+                <a href="https://replit.com/@KLReddi/QGame-1?v=1" class="button" target="_blank">Live project</a>
+                <a href="https://github.com/ramalingaa/Quiz-1" class="source" target="_blank">View source</a>
+            </div>
+            
+        </section>
+        <section class="maxlength">
+            <h2>Are you a Cricket fan?</h2>
+            <time datetime="July ,2021"><small>July, 2021</small></time>
+            <p>Do you love cricket?Let's try this fun quiz.</p>
 
-        
-    </section>
-    <section class="maxlength">
-        <h2>Are you a Cricket fan?</h2>
-        <time datetime="July ,2021"><small>July, 2021</small></time>
-        <p>Do you love cricket?Let's try this fun quiz.</p>
+            <a href="https://replit.com/@KLReddi/QGame-2?v=1" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/Quiz-2" class="source" target="_blank">View source</a>
 
-        <a href="https://replit.com/@KLReddi/QGame-2?v=1" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/Quiz-2" class="source" target="_blank">View source</a>
+        </section>
+        <section class="maxlength">
+            <h2>Ever tried speaking Minion language?</h2>
+            <time datetime="July ,2021"><small>July, 2021</small></time>
+            <p>It's so interesting to know how this banana creatures communicate</p>
 
-    </section>
-    <section class="maxlength">
-        <h2>Ever tried speaking Minion language?</h2>
-        <time datetime="July ,2021"><small>July, 2021</small></time>
-        <p>It's so interesting to know how this banana creatures communicate</p>
+            <a href="https://despice-minion.netlify.app/" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/BananaSpeak" class="source" target="_blank">View source</a>
 
-        <a href="https://despice-minion.netlify.app/" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/BananaSpeak" class="source" target="_blank">View source</a>
+        </section>
+        <section class="maxlength">
+            <h2>Who doesn't love Yoda</h2>
+            <time datetime="Aug ,2021"><small>July, 2021</small></time>
+            <p>Take a look at how Yoda communicates</p>
 
-    </section>
-    <section class="maxlength">
-        <h2>Who doesn't love  symbol of patience, Yoda</h2>
-        <time datetime="Aug ,2021"><small>July, 2021</small></time>
-        <p>Take a look at how Yoda communicates</p>
+            <a href="https://reverent-kepler-2696bc.netlify.app/" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/Mark-seven_trans" class="source" target="_blank">View source</a>
 
-        <a href="https://reverent-kepler-2696bc.netlify.app/" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/Mark-seven_trans" class="source" target="_blank">View source</a>
+        </section>
+        <section class="maxlength">
+            <h2>Wanna know meaning of Emoji try this Emoji interpreter</h2>
+            <time datetime="Aug ,2021"><small>July, 2021</small></time>
+            <p>It's fun playing with emojis,follow below links</p>
 
-    </section>
-    <section class="maxlength">
-        <h2>Wanna know meaning of Emoji try this Emoji interpreter</h2>
-        <time datetime="Aug ,2021"><small>July, 2021</small></time>
-        <p>It's fun playing with emojis,follow below links</p>
+            <a href="https://x83dz.csb.app/" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/Mark-8-Emoji-interpreter" class="source" target="_blank">View source</a>
 
-        <a href="https://x83dz.csb.app/" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/Mark-8-Emoji-interpreter" class="source" target="_blank">View source</a>
+        </section>
+        <section class="maxlength">
+            <h2>Tired of random book suggestions</h2>
+            <time datetime="Aug ,2021"><small>July, 2021</small></time>
+            <p>Follow this link for goodreads recommends</p>
 
-    </section>
-    <section class="maxlength">
-        <h2>Tired of random book suggestions</h2>
-        <time datetime="Aug ,2021"><small>July, 2021</small></time>
-        <p>Follow this link for goodreads recommends</p>
+            <a href="https://xsu7x.csb.app/" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/mark-9-goodreads" class="source" target="_blank">View source</a>
 
-        <a href="https://xsu7x.csb.app/" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/mark-9-goodreads" class="source" target="_blank">View source</a>
+        </section>
+        <section class="maxlength">
+            <h2>Ever thought how cashiers work like superhumans</h2>
+            <time datetime="Aug ,2021"><small>July, 2021</small></time>
+            <p>Follow this link for to know their secret weapon</p>
 
-    </section>
-    <section class="maxlength">
-        <h2>Ever though how cashiers work like superhumans</h2>
-        <time datetime="Aug ,2021"><small>July, 2021</small></time>
-        <p>Follow this link for to know their secret weapon</p>
+            <a href="https://hardcore-cray-bcecd8.netlify.app/" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/Mark-ten-Cash_registry" class="source" target="_blank">View source</a>
 
-        <a href="https://hardcore-cray-bcecd8.netlify.app/" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/Mark-ten-Cash_registry" class="source" target="_blank">View source</a>
+        </section>
+        <section class="maxlength">
+            <h2>Wondering between Birthdate and Luckynumber</h2>
+            <time datetime="Aug ,2021"><small>July, 2021</small></time>
+            <p>Why not put them in a single cruncher</p>
 
-    </section>
-    <section class="maxlength">
-        <h2>Wondering between birthdate and Luckynumber</h2>
-        <time datetime="Aug ,2021"><small>July, 2021</small></time>
-        <p>Why not put them in a single cruncher</p>
+            <a href="https://awesome-poitras-b5193a.netlify.app/" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/Mark-eleven-BirthDay_check" class="source" target="_blank">View source</a>
 
-        <a href="https://awesome-poitras-b5193a.netlify.app/" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/Mark-eleven-BirthDay_check" class="source" target="_blank">View source</a>
+        </section>
+        <section class="maxlength">
+            <h2>Are you good at Triangles</h2>
+            <time datetime="Aug ,2021"><small>July, 2021</small></time>
+            <p>Not sure? then try this fun app</p>
 
-    </section>
-    <section class="maxlength">
-        <h2>Test your basics with Triangles</h2>
-        <time datetime="Aug ,2021"><small>July, 2021</small></time>
-        <p>Not sure then try this out</p>
+            <a href="https://elastic-engelbart-75a1ea.netlify.app/" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/Mark-12-fun-with-Triangles" class="source" target="_blank">View source</a>
 
-        <a href="https://elastic-engelbart-75a1ea.netlify.app/" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/Mark-12-fun-with-Triangles" class="source" target="_blank">View source</a>
+        </section>
+        <section class="maxlength">
+            <h2>Check your birthday palindrome or not</h2>
+            <time datetime="Aug ,2021"><small>July, 2021</small></time>
+            <p>Follow this link to check</p>
 
-    </section>
-    <section class="maxlength">
-        <h2>Check your birthday palindrome or not</h2>
-        <time datetime="Aug ,2021"><small>July, 2021</small></time>
-        <p>Follow this link to check</p>
+            <a href="https://nervous-haibt-3b2bef.netlify.app/" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/Mark-13_Palindrome_Check" class="source" target="_blank">View source</a>
 
-        <a href="https://nervous-haibt-3b2bef.netlify.app/" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/Mark-13_Palindrome_Check" class="source" target="_blank">View source</a>
+        </section>
+        <section class="maxlength">
+            <h2>Want to invest in Stocks</h2>
+            <time datetime="Aug ,2021"><small>July, 2021</small></time>
+            <p>Then try this app to check your profits and losses</p>
 
-    </section>
-    <section class="maxlength">
-        <h2>Want to invest in Stocks</h2>
-        <time datetime="Aug ,2021"><small>July, 2021</small></time>
-        <p>Then try this app to check your profits and losses</p>
+            <a href="https://silly-haibt-23ae42.netlify.app/" class="button" target="_blank">Live project</a>
+            <a href="https://github.com/ramalingaa/Mark-14-Stockprice_Check" class="source" target="_blank">View source</a>
 
-        <a href="https://silly-haibt-23ae42.netlify.app/" class="button" target="_blank">Live project</a>
-        <a href="https://github.com/ramalingaa/Mark-14-Stockprice_Check" class="source" target="_blank">View source</a>
-
-    </section>
+        </section>
+    </div>
 
 
 
+    <footer class="footer-align">
+        <div>
+        <p>&copy;  |  2021  | Ramalinga</p>
+        <a href="https://github.com/ramalingaa"><i class="fab fa-github icon"></i></a>
+        <a href="https://www.linkedin.com/in/ramalinga-reddy-53177a13b/"><i class="fab fa-linkedin icon"></i></a>
+        <a href="https://twitter.com/ramalingareddik?s=08"><i class="fab fa-twitter icon"></i></a>
+    </div>
 
 
-    <footer class="footnote">
-        <p style="color: white;text-align: center;margin-top: 50px;padding-top: 50px;">You can connect me on</p>
-            <a href="#" ><li class="social middle" target="_blank">Linkedin</li></a>
-            <a href="#"><li class="social" target="_blank">Instagram</li></a>
-            <a href="#"><li class="social" target="_blank">Twitter</li></a>
-    
+
+
     </footer>
+
 </body>
 </html>
