@@ -1,0 +1,55 @@
+# Query: <a
+# ContextLines: 1
+
+22 results - 2 files
+
+index.html:
+   86          <ul> 
+   87:             <a href ="index.html" style="font-weight: bold;">Ramalingaa</a>
+   88:             <a href="#"><li class="list">Blogs</li></a>
+   89:             <a href="projects_page.html"><li class="list">Projects</li></a>
+   90:             <a href="index.html"><li class="list">Home</li></a>
+   91          </ul>
+
+  105          <p style="max-width: 600px;margin: 0 auto;font-weight: 400;color: rgba(0, 0, 0, 0.692);">I believe in gaining knowledge and understanding through practical hence I would like to showcase some of my projects.</p>
+  106:         <a class="button" href="projects_page.html">See Projects</a>
+  107      </section>
+
+  110          <p style="max-width: 600px;margin: 0 auto;font-weight:400;color: rgba(0, 0, 0, 0.692);">I have developed my interests in writing technical and non-technical blogs.</p>
+  111:         <a class="button" href="#">Visit blogs</a>
+  112      </section>
+
+  114          <p style="color: white;text-align: center">You can connect me on</p>
+  115:             <a href="#" target="_blank"><li class="social middle">Facebook</li></a>
+  116:             <a href="#"><li class="social">Instagram</li></a>
+  117:             <a href="#"><li class="social">Twitter</li></a>
+  118      
+
+projects_page.html:
+   95          <ul> 
+   96:             <a href ="index.html" style="font-weight: bold;">Ramalingaa</a>
+   97:             <a href="#"><li class="list">Blogs</li></a>
+   98:             <a href="projects_page.html"><li class="list">Projects</li></a>
+   99:             <a href="index.html"><li class="list">Home</li></a>
+  100          </ul>
+
+  106          <p >A CLI app built with <span style="font-weight: bold;color: black;">nodeJs</span> You can send this to your friends and find out who really knows you.</p>
+  107:         <a href="https://replit.com/@KLReddi/QGame-1?v=1" class="button">Live project</a>
+  108:         <a href="https://github.com/ramalingaa/Quiz-1" class="source" >View source</a>
+  109  
+
+  116  
+  117:         <a href="https://replit.com/@KLReddi/QGame-2?v=1" class="button">Live project</a>
+  118:         <a href="https://github.com/ramalingaa/Quiz-2" class="source" >View source</a>
+  119  
+
+  125  
+  126:         <a href="https://despice-minion.netlify.app/" class="button">Live project</a>
+  127:         <a href="https://github.com/ramalingaa/BananaSpeak" class="source" >View source</a>
+  128  
+
+  131          <p style="color: white;text-align: center;margin-top: 50px;padding-top: 50px;">You can connect me on</p>
+  132:             <a href="#" ><li class="social middle" target="_blank">Facebook</li></a>
+  133:             <a href="#"><li class="social">Instagram</li></a>
+  134:             <a href="#"><li class="social">Twitter</li></a>
+  135      
